@@ -1,0 +1,18 @@
+REST API 
+
+GET /users - list all users                     done
+GET /api/users - list all users                 if this is api data through html document data for mobile users 
+
+
+GET /api/users/1 - get the user with id 1		done
+GET /api/users/2 - get the user with id 2		done
+Dynamic Path Paramters
+GET /api/users/:id								done
+:id = variable / dynamic id.    				done
+
+
+POST /users - Create new user
+
+PATCH /user/1 - Edit the user with id 1
+
+DELETE /user/1 - Delete the user with id 1
